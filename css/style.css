@@ -1,0 +1,1035 @@
+/* Global properties ======================================================== */
+html, body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+.ic {
+	border:0;
+	float:left;
+	background:#fff;
+	color:#f00;
+	width:50%;
+	line-height:10px;
+	font-size:10px;
+	margin:-220% 0 0 0;
+	overflow:hidden;
+	padding:0
+}
+body {
+	font: 12px/22px Arial, Helvetica, sans-serif;
+	color:#8f8b8c;
+	min-width:970px;
+	background: url(../images/bg.jpg) center 0 repeat;
+}
+.main {
+	width:960px;
+	margin:0 auto;
+}
+/***********************************************************************/
+
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:none;
+}
+a.button {
+	background:url(../images/button.png) 0 0 repeat-x;
+	border-bottom:#3f3b3b 1px solid;
+	color:#fff;
+	font-size:12px;
+	line-height:15px;
+	padding:12px 30px 12px 30px;
+	display:inline-block;
+	border-radius: 6px;
+}
+a.button:hover {
+	background:#000;
+}
+a.button-1 {
+	background:url(../images/button-1.jpg) 0 0 repeat-x;
+	border-bottom:#fff 1px solid;
+	border-left:#cfd0d2 1px solid;
+	border-right:#cfd0d2 1px solid;
+	color:#8f8b8c;
+	font-size:12px;
+	line-height:15px;
+	padding:12px 29px 12px 29px;
+	display:inline-block;
+	border-radius: 7px;
+}
+a.button-1:hover {
+	background:#8b8c8d;
+	color:#fff;
+}
+a.button-2 {
+	background:#e88800;
+	color:#fff;
+	font-size:12px;
+	line-height:15px;
+	font-weight:bold;
+	padding:7px 19px 7px 19px;
+	display:inline-block;
+}
+a.button-2:hover {
+	background:#000;
+	color:#fff;
+}
+a.link {
+	text-decoration:none;
+	cursor:pointer;
+	color:#e88800;
+}
+a.link:hover {
+	text-decoration:underline;
+}
+a.link-2 {
+	background:url(../images/link-2.png) 0 no-repeat;
+	padding-left:16px;
+	display:inline-block;
+	text-decoration:none;
+	cursor:pointer;
+	color:#e88800;
+}
+a.link-2:hover {
+	text-decoration:underline;
+}
+.color-1 {
+	font-size:18px;
+	line-height:24px;
+	color:#e37700;
+}
+.color-2 {
+	color:#1f1919;
+}
+.color-3 {
+	color:#e88800;
+}
+h2 {
+	font-size:35px;
+	line-height:45px;
+	color:#1f1919;
+	font-weight:normal;
+	letter-spacing:-2px;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style-image:none;
+}
+ul.list-1 li {
+	padding:0px 0 8px 14px;
+	line-height:22px;
+	background:url(../images/list-1.gif) 0 9px no-repeat;
+}
+ul.list-1 li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#8f8b8c;
+	line-height:22px;
+}
+ul.list-1 li a:hover {
+	color:#e88800;
+}
+ul.list-2 li {
+	padding:0px 0 8px 14px;
+	line-height:22px;
+	background:url(../images/list-1.gif) 0 9px no-repeat;
+}
+ul.list-2 li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#e88800;
+	line-height:22px;
+}
+ul.list-2 li a:hover {
+	text-decoration:underline;
+}
+/******************************************************************/
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+	width:100%;
+}
+.wrapper {
+	width:100%;
+	overflow:hidden;
+	position:relative
+}
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 50px;
+}
+.extra-wrap {
+	overflow:hidden;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.img-indent {
+	float:left;
+	margin:0 40px 0px 0;
+}
+.last {
+	margin-right:0px !important;
+}
+.top-1 {
+	margin-top:24px;
+}
+.top-2 {
+	margin-top:18px;
+}
+.top-3 {
+	margin-top:16px;
+}
+.top-4 {
+	margin-top:60px;
+}
+.top-5 {
+	margin-top:37px;
+}
+.top-6 {
+	margin-top:17px;
+}
+.top-7 {
+	margin-top:4px;
+}
+.bot-0 {
+	padding-bottom:0 !important;
+	margin-bottom:0 !important;
+}
+.p1 {
+	padding-bottom:22px;
+}
+.p2 {
+	padding-bottom:13px;
+}
+.p3 {
+	padding-bottom:15px;
+}
+.p4 {
+	padding-bottom:11px;
+}
+.p5 {
+	padding-bottom:20px;
+}
+/*********************************header*************************************/
+header {
+	width:100%;
+	background:url(../images/header.jpg) 0 0 repeat;
+	margin:0 auto;
+	z-index:101;
+	position:relative;
+	z-index:100;
+}
+h1 {
+	float:left;
+	margin:46px 0 0 42px;
+}
+.slogan {
+	float:left;
+	border-left:#2f2b2b 1px solid;
+	margin:34px 0 0 28px;
+	padding: 18px 0 15px 29px;
+}
+.tooltips {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 15px;
+
+	margin-top: 50px; /* daha fazla artırabilirsin */
+}	
+  
+  
+  .tooltips a {
+	color: #ffffff;             /* Beyaz ikon rengi */
+	font-size: 24px;            /* İkon büyüklüğü */
+	transition: color 0.3s ease;
+  }
+  
+  .tooltips a:hover {
+	color: #e88800;             /* Üzerine gelince turuncu */
+  }
+  
+  .nav-shadow {
+	background: url(../images/nav-shadow.png) no-repeat center top;
+	background-size: cover; /* Opsiyonel: genişliğe uyum sağlar */
+	padding-top: 10px;
+	margin: 24px 0 0 0;
+	position: relative;
+	z-index: 100;
+	
+  }
+.nav-shadow > div {
+	background: #e57c00;
+	border-radius: 7px;
+	padding-bottom: 4px; /* Alt boşluk sayesinde gölge ile birleşir */
+	width: 80%;
+	padding: 0;
+	box-shadow: 0 3px 2px #201a1a; /* Gölge efekti de burada olabilir */
+}
+
+nav {
+	background: #e57c00 !important;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+/* Navbar genel */
+.nav-wrapper {
+	background: url(../images/nav-shadow.png) no-repeat center top;
+	background-size: cover; /* Opsiyonel: genişliğe uyum sağlar */
+	padding-top: 10px;
+	margin: 24px 0 0 0;
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+  }
+  .navbar {
+	width: 300%;
+	max-width: 1200px;  /* Örnek sınırlama */
+	background-color: #e57c00;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+  }
+  /* Menü ana başlıklar */
+  .menu {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .menu > li {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  
+  .menu > li > a {
+	font-size: 14px; /* Küçük ekranlarda daha küçük yazı */
+    padding: 10px 0;
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  
+  
+  .menu > li > a:hover {
+	background-color: #844c01;
+	border-radius: 5px;
+  }
+  
+  /* Alt menüler */
+  .menu li .submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #e57c00; /* Arkaplan: Turuncu tonu */
+	min-width: 200px;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	z-index: 999;
+	overflow: hidden;
+  }
+  
+  /* Alt menü öğeleri */
+  .menu li .submenu li {
+	padding: 0;
+	margin: 0;
+  }
+  
+  /* Alt menü bağlantıları */
+  .menu li .submenu li a {
+	color: #fff; /* Yazı rengi beyaz */
+	display: block;
+	padding: 12px 20px;
+	font-size: 14px;
+	text-align: left;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease;
+  }
+ /* Dropdown parent */
+.menu li.dropdown {
+	position: relative; /* Alt menü bunun üzerinden pozisyonlanır */
+  }
+  
+  /* Alt menü */
+  .menu li.dropdown .submenu {
+	display: block; /* display: block olmalı çünkü animasyon opacity ile */
+	opacity: 0;
+	transform: translateY(-10px);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #e57c00;
+	min-width: 200px;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	transition: opacity 0.3s ease, transform 0.3s ease;
+	pointer-events: none;
+	z-index: 999;
+  }
+  
+  /* Alt menü öğeleri */
+  .menu li.dropdown .submenu li {
+	text-align: left;
+  }
+  
+  /* Alt menü bağlantıları */
+  .menu li.dropdown .submenu li a {
+	color: #fff;
+	padding: 12px 20px;
+	display: block;
+	background-color: #e57c00;
+	text-decoration: none;
+	transition: all 0.3s ease;
+  }
+  .menu li.dropdown .submenu li a:hover {
+	background-color: #844c01;
+	color: #fff;
+  }
+  
+  /* Hover durumunda alt menüyü göster */
+  .menu li.dropdown:hover .submenu {
+	opacity: 1;
+	transform: translateY(0);
+	pointer-events: auto;
+  }
+  .submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #f9f9f9;
+	border-radius: 0 0 7px 7px;
+	min-width: 220px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  }
+  .dropdown:hover .submenu {
+	display: block;
+  }
+  
+  .submenu li {
+	border-bottom: 1px solid #ddd;
+  }
+  
+  .submenu li:last-child {
+	border-bottom: none;
+  }
+  
+  .submenu li a {
+	padding: 10px 20px;
+	display: block;
+	color: #333;
+	text-decoration: none;
+  }
+  
+  .submenu li a:hover {
+	background-color: #eee;
+	color: #e57c00;
+  }
+  
+  /* Hover ile alt menü açma */
+  .dropdown:hover .submenu {
+	display: block;
+  }
+  .menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+ul.menu li {
+	background: none !important;
+	margin: 0 !important;
+	padding: 10px 30px !important;
+}
+ul.menu li:first-child {
+	background:transparent;
+}
+ul.menu li a {
+	color: #fff !important;
+	font-size: 18px;
+	line-height: 24px;
+}
+ul.menu li a:hover, ul.menu li.current a {
+	color:#844c01;
+}
+/*********************************content*************************************/
+#content {
+	background:#edeef0;
+	width:100%;
+	padding:30px 0 50px 0;
+}
+.content-subpages {
+	padding-top:25px !important;
+}
+.header-content {
+	width:100%;
+	background:url(../images/header-content.jpg) center bottom repeat;
+	margin:0 auto;
+	position:relative;
+	z-index:99;
+	margin-top:-25px;
+	padding-bottom:36px;
+}
+.header-subpages {
+	padding-bottom:65px !important;
+}
+.img-radius {
+	border-radius:7px;
+}
+.border-1 {
+	background:url(../images/border-1.jpg) right 0 repeat-y;
+}
+.border-2 {
+	background:url(../images/border-2.gif) right 0 repeat-y;
+}
+.block-1 {
+	padding-top:70px;
+	width:320px;
+	float:left;
+	text-align:center;
+}
+.block-1>div {
+	padding:10px 30px 15px 30px;
+	margin-top:14px;
+}
+#content>div {
+	width:880px;
+	margin:0 auto;
+}
+.col-1 {
+	width:570px;
+	float:left;
+	padding-right:30px;
+}
+.col-2 {
+	width:240px;
+	float:left;
+	padding-left:40px;
+}
+.col-3 {
+	width:410px;
+	float:left;
+	padding-right:30px;
+}
+.col-4 {
+	width:400px;
+	float:left;
+	padding-left:40px;
+}
+/* Görseller*/
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+  }
+  
+  .flex-text {
+	flex: 1;
+	font-size: 18px;
+	line-height: 1.6;
+  }
+  
+  .flex-image img {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  .no-shadow-image {
+	width: auto !important;
+	max-width: 300px !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+  }
+.content-image {
+	width: 100%; /* Sayfayı kaplasın */
+	max-height: 200px; /* İstersen sabit yükseklik */
+	object-fit: cover; /* Taşmalar olmasın */
+	border-radius: 10px; /* Köşeleri yumuşak */
+	margin-bottom: 25px; /* Yazıdan biraz boşluk */
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Hafif gölge */
+  }
+  .icon {
+	width: 42px;
+	height: 42px;
+	vertical-align: middle;
+	margin-right: 10px;
+  }
+
+  /* Accordion container */
+.accordion-container {
+	width: 100%;
+	margin-top: 20px;
+  }
+  
+  /* Her bir item */
+  .accordion-item {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+  }
+  
+  /* Başlık butonu */
+  .accordion-button {
+	width: 100%; /* Ya da px cinsinden sabit bir değer */
+	max-width: 800px; /* Örnek: genişlik kontrolü */
+	min-width: 800px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px; /* Sabit yükseklik */
+	padding: 0 20px;
+	margin: 0;
+	background-color: #e88800;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border-radius: 5px; /* <-- burası */
+  }
+  
+  .accordion-button:hover {
+	background-color: #c46d00;
+  }
+  
+  /* Açılmış item aktif */
+  .accordion-button.active {
+	background-color: #844c01;
+  }
+  
+  /* İçerik alanı */
+  .accordion-content {
+	width: 100%; /* Butona değil, kapsayıcıya uyumlu */
+	max-width: 800px; /* Butonla aynı genişlik */
+	margin-top: 5px; /* Araya boşluk koymak için */
+	box-sizing: border-box;  
+	display: none;
+	padding: 20px;
+	background-color: #f9f9f9;
+	font-size: 16px;
+	color: #333;
+	border-radius: 10px; /* <-- burası */
+  }
+  .accordion-item.active .accordion-content {
+	display: block;
+  }
+  .accordion-content.open {
+	padding: 20px;
+	max-height: 1000px; /* İçerik uzunluğuna göre ayarla */
+  }
+  
+  .accordion-content p {
+	margin: 10px 0;
+	font-size: 14px;
+  }
+  .accordion-button {
+	position: relative;
+	padding-right: 40px; /* Sağ boşluk ok için */
+  }
+  
+  .accordion-button .arrow {
+	width: 12px;
+	height: 12px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+  }
+  
+  /* Açık durumunda oku döndür */
+ .accordion-button.active .arrow {
+  transform: rotate(-135deg); /* Açıldığında yukarıyı göstersin */
+}
+    
+
+/* tablo */
+ul.pdf-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .pdf-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #f9f9f9;
+	margin-bottom: 20px;
+	padding: 15px;
+	border-radius: 8px;
+  }
+  
+  .pdf-text h3 {
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	color: #333;
+  }
+  
+  .pdf-text p {
+	margin: 0;
+	color: #666;
+  }
+  
+  .pdf-download a {
+	display: inline-block;
+  }
+  
+  .pdf-icon {
+	width: 48px;
+	height: 48px;
+  } 
+
+/* Tüm içerik yazıları */
+.custom-list {
+	padding-left: 0; /* Varsayılan boşluğu kapatalım */
+	margin-top: 15px;
+  }
+  
+  .custom-list li {
+	margin-bottom: 12px; /* Maddeler arası boşluk */
+	color: #333; /* Daha belirgin yazı rengi */
+	font-weight: 500; /* Hafif kalın yazı */
+	font-size: 16px; /* Daha büyük font */
+	list-style: none; /* Varsayılan işaret kalksın */
+  }
+  
+  .custom-list li::before {
+	content: "✔️"; /* İstediğin ikonu yazabilirsin */
+	margin-right: 10px; /* Yazıyla ikon arasına boşluk */
+  }
+.col-5 p {
+	font-size: 18px; /* Öncekinden daha büyük */
+	line-height: 1.6; /* Satırlar arası mesafe daha ferah */
+	color: #000000; /* Daha okunaklı, göz yormaz */
+	margin-bottom: 20px; /* Paragraflar arası boşluk */
+  }
+  .password-generator-container {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	max-width: 500px;
+	margin-top: 20px;
+  }
+  
+  .password-generator-container label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 500;
+  }
+  
+  .options label input {
+	margin-right: 8px;
+  }
+  
+  .length-control {
+	margin: 15px 0;
+  }
+  
+  .password-display {
+	display: flex;
+	margin-top: 10px;
+  }
+  
+  .password-display input {
+	flex: 1;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 8px 0 0 8px;
+	border: 1px solid #ddd;
+  }
+  
+  .password-display button {
+	border-radius: 0 8px 8px 0;
+	background-color: #f39200;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px 15px;
+	border: none;
+  }
+  
+  .password-display button:hover {
+	background-color: #d37a00;
+  }
+  
+  .button-1 {
+	background-color: #f39200;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .button-1:hover {
+	background-color: #d37a00;
+  }
+  .password-strength-container {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	max-width: 500px;
+	margin-top: 20px;
+  }
+  
+  .input-group {
+	margin-bottom: 15px;
+  }
+  
+  .input-group input {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 8px;
+	border: 1px solid #ddd;
+  }
+  
+  .result-box {
+	font-weight: bold;
+	padding: 15px;
+	margin-bottom: 10px;
+	color: #fff;
+	border-radius: 8px;
+	text-align: center;
+  }
+  
+  .estimate-box {
+	font-size: 16px;
+	background-color: #f4f4f4;
+	padding: 15px;
+	border-radius: 8px;
+	text-align: center;
+	color: #333;
+  }
+  .haber-item {
+	margin-bottom: 20px;
+	padding: 15px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .haber-baslik {
+	font-size: 20px;
+	color: #e38b06;
+	cursor: pointer;
+  }
+  
+  .haber-detay {
+	margin-top: 10px;
+	display: none;
+  }
+  
+  .haber-detay.gizli {
+	display: none;
+  }
+  
+  .haber-detay.acik {
+	display: block;
+  }
+  #quiz-container {
+	margin-top: 30px;
+  }
+  
+  .email-example {
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .quiz-buttons {
+	display: flex;
+	gap: 20px;
+  }
+  
+  .quiz-buttons button {
+	padding: 10px 20px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	background-color: #e67e00;
+	color: #fff;
+	border-radius: 8px;
+  }
+  
+  #feedback {
+	margin-top: 20px;
+	font-weight: bold;
+  }
+  
+  /* Başlıklar */
+  .col-5 h2 {
+	font-size: 32px; /* Büyük başlık */
+	color: #e57c00; /* Beyaz veya isteğe bağlı */
+	font-weight: bold;
+	margin-bottom: 25px;
+  }
+  
+  .col-5 h3 {
+	font-size: 24px; /* Alt başlık */
+	color: #e57a00af; /* Turuncu, dikkat çeksin */
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 15px;
+  }
+.col-1 ul {
+	width:240px;
+}
+.col-1 ul:first-child {
+	margin-right:41px;
+}
+.block-2 p.color-2 {
+	margin:7px 0 11px 0;
+}
+.block-3>div.wrap {
+	float:left;
+	width:260px;
+	margin-right:40px;
+}
+blockquote {
+	color:#e88800;
+	padding-left:15px;
+	display:inline-block;
+}
+/****************************footer************************/
+footer {
+	width:880px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+	padding:43px 0 40px 0;
+}
+/**********************form**********************/
+.map {
+	width:240px;
+	height:151px;
+	margin:25px 0 0 0;
+}
+.map iframe {
+	width:240px;
+	height:151px;
+	border-radius:7px;
+}
+dl {
+	margin:22px 0px 0 0px;
+	float:left;
+}
+dl dt {
+}
+dl dd span {
+	display:block;
+	width:67px;
+	float:left;
+}
+dl dd {
+}
+dl dd a {
+}
+#form {
+	margin: 11px 0 0px 0px;
+	width:560px;
+}
+#form input {
+	border-bottom:#fff 1px solid;
+	border-top:#8b8c8d 1px solid;
+	border-left:#cfd0d2 1px solid;
+	border-right:#cfd0d2 1px solid;
+	background:url(../images/form-bg.jpg) 0 0 repeat-x #e1e2e4;
+	border-radius:7px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color:#8f8b8c;
+	padding:5px 10px 6px 10px;
+	outline: medium none;
+	width: 260px;
+	height:15px;
+	float:left;
+}
+#form textarea {
+	border-bottom:#fff 1px solid;
+	border-top:#8b8c8d 1px solid;
+	border-left:#cfd0d2 1px solid;
+	border-right:#cfd0d2 1px solid;
+	background:url(../images/form-bg.jpg) 0 0 repeat-x #e1e2e4;
+	border-radius:7px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color:#8f8b8c;
+	height: 268px;
+	outline: medium none;
+	overflow: auto;
+	padding: 5px 0px 0px 10px;
+	width: 480px;
+	resize:none;
+	margin:0px 0 0 0;
+	float:left;
+}
+#form label {
+	position:relative;
+	overflow:hidden;
+	display: block;
+	min-height:33px;
+}
+#form label strong {
+	font-weight:normal;
+	float:left;
+	display:inline-block;
+	width:68px;
+	padding-top:2px;
+}
+.btns {
+	text-align:right;
+	width:560px;
+	padding-top:13px;
+}
+.btns a {
+	display:inline-block;
+	margin:0 20px 0 10px;
+}
